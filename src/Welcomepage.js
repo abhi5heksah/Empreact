@@ -10,7 +10,7 @@ import superadminImage from "./mypictures/superadmin.webp"
 function Welcomepage() {
   return (
     <div className="container mt-5">
-      <div className="row">
+      <div className="row cardrow">
         <div className="col-12 text-center p-3">
           <h2>Select your login type</h2>
         </div>
