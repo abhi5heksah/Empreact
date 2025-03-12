@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Empregistor() {
+function Empregister() {
     return (
         <div className='container mt-5'>
             <div className='row justify-content-center'>
@@ -9,7 +9,7 @@ function Empregistor() {
                     <div className='container-fluid'>
                         <div className='row'>
                             <div className='col-12 mb-5 text-center'>
-                                <p className='h4'>Employee Registor Page</p>
+                                <p className='h4'>Employee Register Page</p>
                             </div>
                             <div className='col-md-6'>
                                 <div class="mb-3">
@@ -25,7 +25,7 @@ function Empregistor() {
                             </div>
                             <div className='col-md-6'>
                                 <div class="mb-3">
-                                    <label class="form-label">Phono No</label>
+                                    <label class="form-label">Phone No</label>
                                     <input type="text" class="form-control" placeholder='enter phone' />
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ function Empregistor() {
                             </div>
                             <div className='col-12'>
                                 <div class="mb-3">
-                                    <input type='button' value="Registor Now" className='btn btn-success' />
+                                    <input type='button' value="Register Now" className='btn btn-success' />
                                    
                                 </div>
                             </div>
@@ -74,4 +74,4 @@ function Empregistor() {
     )
 }
 
-export default Empregistor
+export default Empregister
