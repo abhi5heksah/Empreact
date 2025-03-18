@@ -15,7 +15,10 @@ function Sidebarpage() {
         </button>
         <div className="collapse show" id="home-collapse">
           <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><Link to="" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Main</Link></li>
             <li><Link to="property" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Property</Link></li>
+            <li><Link to="mydata" className="link-body-emphasis d-inline-flex text-decoration-none rounded">data binding</Link></li>
+            <li><Link to="myaxios" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Axios api</Link></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a></li>
           </ul>
