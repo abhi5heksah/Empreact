@@ -21,7 +21,7 @@ function Welcomepage() {
                   <img src={employeeImage} alt="" width="150" />
                     <div class="heading">
                       <h2>Employee Login</h2>
-                    </div>
+                    </div> 
                   </div>
                 </div>
           </Link>

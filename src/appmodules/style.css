@@ -58,3 +58,10 @@
     min-height: 80vh;
     max-height: fit-content;
   }
+
+
+/* headerpage css */
+
+.ctm-mw{
+  max-width: 12%;
+}

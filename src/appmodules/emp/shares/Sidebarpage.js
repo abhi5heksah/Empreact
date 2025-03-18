@@ -6,7 +6,7 @@ function Sidebarpage() {
     <div className="flex-shrink-0 p-3">
     <a href="/" className="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
       
-      <span className="fs-5 fw-semibold">Collapsible</span>
+      <span className="fs-5 fw-semibold">Navbar</span>
     </a>
     <ul className="list-unstyled ps-0">
       <li className="mb-1">
