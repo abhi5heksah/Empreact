@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 function EmpLogin() {
     return (
-        <div className='container mt-5'>
-            <div className='row justify-content-center'>
-                <div className='col-md-4 border shadow p-3'>
+        <div className='container mt-5 '>
+            <div className='row justify-content-center '>
+                <div className='col-md-4 border shadow p-3 '>
                     <div className='container-fluid'>
                         <div className='row'>
                             <div className='col-12 mb-5 text-center'>

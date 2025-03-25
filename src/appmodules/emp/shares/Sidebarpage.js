@@ -30,6 +30,7 @@ function Sidebarpage() {
         </button>
         <div className="collapse" id="dashboard-collapse">
           <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="salaries" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Salaires</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Weekly</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a></li>
@@ -69,4 +70,4 @@ function Sidebarpage() {
   )
 }
 
-export default Sidebarpage
+export default Sidebarpage;

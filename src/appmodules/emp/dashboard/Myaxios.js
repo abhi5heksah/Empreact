@@ -35,4 +35,4 @@ useEffect(()=>{
     )
 }
 
-export default Myaxios
+export default Myaxios;

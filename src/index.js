@@ -16,6 +16,7 @@ import EmpHomepage from './appmodules/emp/dashboard/EmpHomepage';
 import Empproperty from './appmodules/emp/dashboard/Empproperty';
 import Empdatabinding from './appmodules/emp/dashboard/Empdatabinding';
 import Myaxios from './appmodules/emp/dashboard/Myaxios';
+import Salaries from './appmodules/Components/Salaries';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,7 +35,7 @@ root.render(
               <Route path='property' element={<Empproperty/>}></Route>
               <Route path='mydata' element={<Empdatabinding/>}></Route>
               <Route path='myaxios' element={<Myaxios/>}></Route>
-              
+              <Route path='salaries' element={<Salaries/>}></Route>
             </Route>
           </Routes>
       </BrowserRouter>
